@@ -1,0 +1,15 @@
+using System;
+class Program
+{
+    static void Main()
+    {
+    	int Counter = 1; 
+		while (Counter <= 5) 
+		{ 
+			Console.WriteLine("Counter: " + Counter); 
+			
+			Counter++; 
+		} 
+			
+	   	Console.WriteLine("The loop has finished running."); 
+	} 
